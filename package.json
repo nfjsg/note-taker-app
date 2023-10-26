@@ -1,1 +1,17 @@
 
+{
+  "name": "note-taker-app",
+  "version": "1.0.0",
+  "description": "A note-taking application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.0.0", // Add your project's dependencies here
+    "uuid": "^3.0.0",
+    // Add other dependencies as needed
+  },
+  "author": "dasa",
+  "license": "MIT"
+}
