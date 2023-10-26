@@ -8,9 +8,9 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^5.0.0", // Add your project's dependencies here
+    "express": "^5.0.0", 
     "uuid": "^3.0.0",
-    // Add other dependencies as needed
+    
   },
   "author": "dasa",
   "license": "MIT"
