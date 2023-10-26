@@ -14,12 +14,12 @@ app.use(express.json());
 
 // Serve the notes.html file for the "/notes" route
 app.get('/notes', (req, res) => {
-  res.sendFile(path.join(__dirname, '../public/notes.html'));
+  res.sendFile(path.join(__dirname, '/public/notes.html'));
 });
 
 // Serve the index.html file for all other routes
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../public/index.html'));
+  res.sendFile(path.join(__dirname, '/public/index.html'));
 });
 
 // API route to get all notes from db.json
