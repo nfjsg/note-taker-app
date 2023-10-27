@@ -7,10 +7,13 @@ const uuid = require('uuid'); // UUID package for generating unique IDs
 
 // Create an instance of the Express application
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 // Middleware to handle JSON data
 app.use(express.json());
+
+// Serve static files from the 'public/assets' directory
+app.use('/assets', express.static(path.join(__dirname, 'public/assets')));
 
 // Serve the notes.html file for the "/notes" route
 app.get('/notes', (req, res) => {
