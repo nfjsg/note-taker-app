@@ -25,14 +25,14 @@ app.get('/', (req, res) => {
 // API route to get all notes from db.json
 app.get('/api/notes', (req, res) => {
   // Read notes from the db.json file and send them as a JSON response
-  const notes = JSON.parse(fs.readFileSync(path.join(__dirname, 'db.json'));
+  const notes = JSON.parse(fs.readFileSync(path.join(__dirname, 'db.json')));
   res.json(notes);
 });
 
 // API route to save a new note
 app.post('/api/notes', (req, res) => {
   // Read the existing notes from db.json
-  const notes = JSON.parse(fs.readFileSync(path.join(__dirname, 'db.json'));
+  const notes = JSON.parse(fs.readFileSync(path.join(__dirname, 'db.json')));
   // Generate a unique ID using UUID
   const newNote = {
     id: uuid.v4(),
@@ -53,7 +53,7 @@ app.delete('/api/notes/:id', (req, res) => {
   const noteId = req.params.id; // Get the ID from the URL parameter
 
   // Read the existing notes from db.json
-  const notes = JSON.parse(fs.readFileSync(path.join(__dirname, 'db.json'));
+  const notes = JSON.parse(fs.readFileSync(path.join(__dirname, 'db.json')));
 
   // Find the index of the note to delete by matching its ID
   const noteIndex = notes.findIndex((note) => note.id === noteId);
