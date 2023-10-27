@@ -17,7 +17,7 @@ The Note Taker App is a simple and user-friendly application that allows you to 
 
 You can access the deployed Note Taker App via the following link:
 
-[Note Taker App - Deployed]([https://sudbsi-4c9693891fcc.herokuapp.com/notes])
+[Note Taker App - Deployed](https://sudbsi-4c9693891fcc.herokuapp.com/notes)
 
 ## Usage
 
