@@ -1,6 +1,6 @@
 # Note Taker App
 
-![Note Taker App Screenshot](./assets/screenshot.png)
+![Note Taker App Screenshot](IMG_7525.jpeg)
 
 ## Description
 
@@ -17,7 +17,7 @@ The Note Taker App is a simple and user-friendly application that allows you to 
 
 You can access the deployed Note Taker App via the following link:
 
-[Note Taker App - Deployed](https://your-deployment-url.com)
+[Note Taker App - Deployed]([https://your-deployment-url.com](https://sudbsi-4c9693891fcc.herokuapp.com/notes))
 
 ## Usage
 
